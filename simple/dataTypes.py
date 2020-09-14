@@ -44,3 +44,27 @@ print(ave)
 print('-----------------TUPLE EXAMPLE---------------------')
 temp=(1,4,'hello')
 print(temp)
+
+print('-----------------MORE LISTS EXAMPLE---------------------')
+monday_temp = [9.1,10.2,11.2]
+monday_temp.append(8.1)
+print(monday_temp)
+monday_temp.clear()
+print(monday_temp)
+monday_temp = [9.1, 10.2, 11.1, 5.0, 10.5]
+#del monday_temp[1:2]
+print(monday_temp[1])
+print(monday_temp[2:])
+#negative index
+print(monday_temp[-4:-1])
+
+print('-----------------STRING EXAMPLE---------------------')
+mystring= 'hello'
+print(mystring[1])
+print(mystring[-1])
+crazyList = ['hello', 5, 10]
+print(crazyList[0][-2])
+
+print('-----------------MORE DICT EXAMPLE---------------------')
+student_grades = {"marry":10, "josh":5, "ash": 6}
+print(student_grades['josh'])
